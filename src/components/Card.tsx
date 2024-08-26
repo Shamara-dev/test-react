@@ -27,7 +27,7 @@ const Card = ({ id, title, image }: Product) => {
     return (
         <div
             className="h-[300px] w-[200px] flex flex-col gap-1 cursor-pointer"
-            onClick={() => navigate(`products/${id}`)}
+            onClick={() => navigate(`/${id}`)}
         >
             <img
                 className="h-[200px] w-[200px] object-contain"
